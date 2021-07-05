@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+.nevber{
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:60vh;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(164, 59, 224);
+    line-height: 50px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav li{
+list-style: none;
+display: inline-block;
+font-size: 25px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding:20px;
+    color: white;
+    font-weight: 700;
+}
+nav a:hover{
+    background-color: rgb(33, 139, 19);
+    border: 1px solid white;
+    border-radius:70px;
+   
+}
+.input-item{
+    margin-top:80px;
+    padding: 20px;
+    text-align: left;
+    margin-left: 20px;
+    background-color: rgb(61, 114, 11);
+    width:200px;
+    height:230px;
+}
+.input-item h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+#text {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+#password{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+#submit{
+    color: rgb(19, 36, 18);
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius:10px;
+    border: 2px solid rgb(63, 110, 238);
+}
+#submit:hover{
+    background-color: rgb(233, 38, 38);
+}
+#fast{
+    font-size:20px;
+    text-transform:capitalize;
+    font-weight: 700;
+    
+}
+#second{
+    font-size:20px;
+    text-transform:capitalize;
+    font-weight: 700;
+}
+.main-area{
+    background-image: url(top-banner.png);
+    margin-bottom: 130px;
+}
+.haif-width{
+    width: 50%;
+    float: left;
+    
+   
+}
+.haif-width img{
+    width:70%;
+    padding-left:10%;
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+p{
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.oreng-color{
+color: orange;
+}
+section{
+    display: flex;
+}
+.button-link{
+    border: 3px solid red;
+    padding:15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-left:30%;
+}
+.button-link:hover{
+    background-color: rgb(241, 24, 78);
+    color: rgb(213, 228, 238);
+}
+.button-item{
+    text-decoration: none;
+    padding: 15px 25px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left:40%;
+    font-weight: 700;
+}
+.button-item:hover{
+    background-color: rgb(241, 24, 78);
+    color: white;
+    
+}
+.drema-area{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}

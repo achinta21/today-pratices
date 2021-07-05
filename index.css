@@ -82,7 +82,7 @@ nav a:hover{
     text-transform:capitalize;
     font-weight: 700;
 }
-.main-area{
+.main-area.continer-item{
     background-image: url(top-banner.png);
     margin-bottom: 130px;
 }
@@ -116,7 +116,7 @@ p{
 .oreng-color{
 color: orange;
 }
-section{
+.continer-item{
     display: flex;
 }
 .button-link{
@@ -144,8 +144,16 @@ section{
     color: white;
     
 }
-.drema-area{
+.drema-area.continer-item{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+.menu-area{
+    box-shadow:5px 7px 40px gray;
+    padding: 5%;
+   width: 50%;
+   margin: 30px;
+   margin-bottom:15%;
+
 }
